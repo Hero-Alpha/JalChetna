@@ -20,8 +20,16 @@ dotenv.config();
 // Initialize app
 const app = express();
 
+const allowedOrigins = [
+  'http://localhost:5173',
+  'https://jalchetna-frontend.onrender.com'
+];
+
 // Middleware setup
-app.use(cors());
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
