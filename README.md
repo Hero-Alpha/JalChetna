@@ -177,7 +177,6 @@ JalChetna provides:
 ### User Profile
 ![Profile Page](ss/user-profile.png)
 *User statistics and saved reports history*
-
 ---
 
 ## Installation
