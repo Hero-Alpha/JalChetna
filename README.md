@@ -133,52 +133,6 @@ JalChetna provides:
 
 ---
 
-## Screenshots
-
-### Landing Page
-![Landing Hero](ss/landing-hero.png)
-*Hero section with gradient background and call-to-action*
-
-![Landing Features](ss/landing-feature.png)
-*6 key features highlighting platform capabilities*
-
-![Landing News](ss/landing-news.png)
-*Latest health alerts and advisories*
-
-### AI Health Assistant
-![Symptom Form](ss/ai-symptom-form.png)
-*Symptom input form with image upload option*
-
-![Analysis Results](ss/ai-symptom-result.png)
-*AI-powered diagnosis with severity assessment and recommendations*
-
-### Dashboard
-![Dashboard Stats](ss/dashboard-stats.png)
-*Key metrics: regions monitored, risk assessments, high-risk zones*
-
-![Risk Analysis Result](ss/dashboard-result-chart.png)
-*Environmental conditions, predicted diseases, and risk score*
-
-### Risk Intelligence
-![Risk Map](ss/risk-map.png)
-*Interactive India map with color-coded risk markers*
-
-### Disease Encyclopedia
-![Encyclopedia Grid](ss/encylopedia.png)
-*Disease cards with symptoms and risk levels*
-
-![Disease Description](ss/disease-description.png)
-*Detailed disease information modal*
-
-### Community Hub
-![Community Feed](ss/community-hub.png)
-*Live news feed and community reports*
-
-### User Profile
-![Profile Page](ss/user-profile.png)
-*User statistics and saved reports history*
----
-
 ## Installation
 
 ### Prerequisites
@@ -336,32 +290,6 @@ jalchetna/
 │
 └── ss/                  # Screenshots for documentation
 ```
-
----
-
-## Future Enhancements
-
-- [ ] Push notifications (Email/SMS alerts)
-- [ ] Mobile app (React Native)
-- [ ] Hospital & clinic locator
-- [ ] Multi-language support (Hindi, Tamil, Telugu, Bengali)
-- [ ] IoT sensor integration for real-time water quality
-- [ ] Blockchain for data integrity
-- [ ] Admin dashboard for health authorities
-- [ ] Vaccination tracker
-- [ ] Research & education hub
-
----
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
 
 ## License
 
