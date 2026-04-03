@@ -5,7 +5,7 @@ import axios from 'axios';
 import { MessageCircle, Heart, Flag, Share2, RefreshCw, AlertTriangle, ExternalLink, ChevronDown, X, Send } from 'lucide-react';
 import toast from 'react-hot-toast';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://jalchetna.onrender.com/api';
 
 const CommunityHub = () => {
   const [news, setNews] = useState([]);

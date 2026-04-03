@@ -52,7 +52,7 @@ const AIHealthAssistant = () => {
         imageAnalysis = '[Image uploaded for analysis. AI would analyze skin conditions, rashes, or other visible symptoms.]';
       }
 
-      const response = await axios.post('http://localhost:5000/api/prediction/symptom-check', {
+      const response = await axios.post('https://jalchetna.onrender.com/api/prediction/symptom-check', {
         symptoms: `${symptoms}\n\n${imageAnalysis}`,
         region
       });

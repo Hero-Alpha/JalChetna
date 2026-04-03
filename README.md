@@ -197,7 +197,7 @@ JWT_SECRET=your_jwt_secret_key
 
 ### Frontend (.env)
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://jalchetna.onrender.com/api
 ```
 
 ---
